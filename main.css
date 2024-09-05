@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 46px;
+}
+.container{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__lits{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.header__link{
+    color: rgb(31, 21, 52);
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 23px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: red;
+}
